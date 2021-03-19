@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="./styles/tailwind.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
+    <title>Drum-Kit JS</title>
+  </head>
+  <body class="h-screen flex content-center">
+    <div id="keys"class="flex m-auto text-center">
+      <div data-key="49" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>1</kbd><br>
+        <span class="font-mono font-bold sound">CLAP</span>
+      </div>
+      <div data-key="50" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>2</kbd><br>
+        <span class="font-mono font-bold ">HITHAT</span>
+      </div>
+      <div data-key="51" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>3</kbd><br>
+        <span class="font-mono font-bold">KICK</span>
+      </div>
+      <div data-key="52" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>4</kbd><br>
+        <span class="font-mono font-bold">OPENHAT</span>
+      </div>
+      <div data-key="53" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>5</kbd><br>
+        <span class="font-mono font-bold">BOOM</span>
+      </div>
+      <div data-key="54" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>6</kbd><br>
+        <span class="font-mono font-bold">RIDE</span>
+      </div>
+      <div data-key="55" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>7</kbd><br>
+        <span class="font-mono font-bold">SNARE</span>
+      </div>
+      <div data-key="56" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>8</kbd><br>
+        <span class="font-mono font-bold">TOM</span>
+      </div>
+      <div data-key="56" class="mx-2 w-24 border-black border-4 p-4 rounded bg-blue-200 key">
+        <kbd>9</kbd><br>
+        <span class="font-mono font-bold">TINK</span>
+      </div>
+         
+      <audio data-key="49" src="sounds/clap.wav"></audio>
+      <audio data-key="50" src="sounds/hihat.wav"></audio>
+      <audio data-key="51" src="sounds/kick.wav"></audio>
+      <audio data-key="52" src="sounds/openhat.wav"></audio>
+      <audio data-key="53" src="sounds/boom.wav"></audio>
+      <audio data-key="54" src="sounds/ride.wav"></audio>
+      <audio data-key="55" src="sounds/snare.wav"></audio>
+      <audio data-key="56" src="sounds/tom.wav"></audio>
+      <audio data-key="57" src="sounds/tink.wav"></audio>
+      
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
